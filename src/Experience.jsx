@@ -31,7 +31,6 @@ export default function Experience() {
                 position={[0,0.55,-1.15]}
             />
             <primitive
-            scale={scale}
             object={computer.scene}
             position-y={-1.2}
             >

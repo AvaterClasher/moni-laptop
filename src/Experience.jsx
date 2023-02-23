@@ -2,7 +2,7 @@ import {useAspect,Text, ContactShadows, PresentationControls,Float,Environment, 
 
 export default function Experience() {
   const computer = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf');
-  const scale = useAspect(canvas.clientWidth,canvas.clientHeight)
+
 
   return (
     <>

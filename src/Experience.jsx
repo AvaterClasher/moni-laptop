@@ -2,6 +2,7 @@ import {Text, ContactShadows, PresentationControls,Float,Environment, useGLTF, H
 
 export default function Experience() {
   const computer = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf');
+  const scale = useAspect(canvas.clientWidth,canvas.clientHeight)
 
   return (
     <>
@@ -29,7 +30,8 @@ export default function Experience() {
                 rotation={[0.1,Math.PI,0]}
                 position={[0,0.55,-1.15]}
             />
-            <primitive 
+            <primitive
+            scale={scale}
             object={computer.scene}
             position-y={-1.2}
             >

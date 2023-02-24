@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <>
       <Environment preset="city" />
-      <color args={["#696969"]} attach="background" />
+      <color args={["#2C1608"]} attach="background" />
 
       <mesh>
         <meshNormalMaterial />
